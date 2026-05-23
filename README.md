@@ -1,6 +1,5 @@
-# fmcg-sales-analysis
-FMCG sales analysis using Python and Power BI
 # FMCG Sales Analysis
+FMCG sales analysis using Python and Power BI
 
 ## Project Overview
 This project analyzes FMCG sales data using Python, SQL, and Power BI.  
