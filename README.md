@@ -1,41 +1,154 @@
-# FMCG Sales Analysis
-FMCG sales analysis using Python and Power BI
+# 🛒 FMCG Retail Sales Analytics
+> End-to-end data analysis project covering Excel, SQL, Python, 
+and Power BI — built to answer real business questions about 
+product performance, regional trends, and channel profitability.
 
-## Project Overview
-This project analyzes FMCG sales data using Python, SQL, and Power BI.  
-The goal was to explore sales trends, identify top-performing products and regions, and build a visual dashboard for business insights.
+---
 
-## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- SQL
-- Power BI
-- Seaborn
+## 📌 Business Questions
+- Which product categories drive the most profit?
+- Which sales channels have the highest margins?
+- How does revenue trend month-over-month?
+- Which regions underperform vs. national average?
+- Do discounts actually improve profitability?
 
-## Project Workflow
-1. Data cleaning and preprocessing using Python
-2. Exploratory data analysis (EDA)
-3. SQL queries for business insights
-4. Data visualization and dashboard creation in Power BI
+---
 
-## Key Insights
-- Identified seasonal sales patterns
-- Analyzed top-performing product categories
-- Compared regional sales performance
-- Explored revenue and customer trends
+## 🔍 Key Findings
+- **5,000 transactions** analyzed across 6 regions and 5 channels
+- **Dairy & Personal Care** account for 53% of total revenue
+- **Supermarket channel** leads with 30% profit margin
+- **Shiraz region** shows highest revenue share (18.8%)
+- Top 53% of SKUs generate 80% of total revenue (Pareto Rule)
+- Higher discounts show **no significant correlation** with profit (r = 0.053)
 
-## Repository Structure
-data/           -> Raw dataset files
-notebooks/      -> Python analysis notebooks
-sql/            -> SQL queries used for analysis
-images/         -> Dashboard screenshots and charts
+---
 
-## Dashboard Preview
-Dashboard screenshots are available in the `images/` folder.
+## 🛠️ Tech Stack
+| Stage | Tool | What I Did |
+|-------|------|------------|
+| Stage 1 | Excel | Data cleaning, QA checks, Pivot KPIs |
+| Stage 2 | SQL Server | Table creation, validation, EDA, CTEs, Window Functions |
+| Stage 3 | Python (Pandas, NumPy, Matplotlib, Seaborn) | EDA, trend analysis, Pareto, feature engineering |
+| Stage 4 | Power BI + DAX | Interactive dashboard, KPI measures, date table modeling |
 
-## Future Improvements
-- Add predictive sales analysis
-- Build an interactive web dashboard
-- Automate data cleaning pipeline
+---
+
+## 📊 Dashboard Preview
+
+![Overview Dashboard](images/dashboard_overview.png)
+![Category Analysis](images/dashboard_category.png)
+![Regional Analysis](images/dashboard_regional.png)
+# 🛒 FMCG Retail Sales Analytics
+> End-to-end data analysis project covering Excel, SQL, Python, 
+and Power BI — built to answer real business questions about 
+product performance, regional trends, and channel profitability.
+
+---
+
+## 📌 Business Questions
+- Which product categories drive the most profit?
+- Which sales channels have the highest margins?
+- How does revenue trend month-over-month?
+- Which regions underperform vs. national average?
+- Do discounts actually improve profitability?
+
+---
+
+## 🔍 Key Findings
+- **5,000 transactions** analyzed across 6 regions and 5 channels
+- **Dairy & Personal Care** account for 53% of total revenue
+- **Supermarket channel** leads with 30% profit margin
+- **Shiraz region** shows highest revenue share (18.8%)
+- Top 53% of SKUs generate 80% of total revenue (Pareto Rule)
+- Higher discounts show **no significant correlation** with profit (r = 0.053)
+
+---
+
+## 🛠️ Tech Stack
+| Stage | Tool | What I Did |
+|-------|------|------------|
+| Stage 1 | Excel | Data cleaning, QA checks, Pivot KPIs |
+| Stage 2 | SQL Server | Table creation, validation, EDA, CTEs, Window Functions |
+| Stage 3 | Python (Pandas, NumPy, Matplotlib, Seaborn) | EDA, trend analysis, Pareto, feature engineering |
+| Stage 4 | Power BI + DAX | Interactive dashboard, KPI measures, date table modeling |
+
+---
+
+## 📊 Dashboard Preview
+
+<!-- Add your dashboard screenshots here -->
+![Overview Dashboard](images/dashboard_overview.png)
+![Category Analysis](images/dashboard_category.png)
+![Regional Analysis](images/dashboard_regional.png)
+
+---
+
+## 📁 Project Structure
+fmcg-sales-analysis/
+
+├── data/
+
+│   └── fmcg_sales_dataset.csv
+
+├── notebooks/
+
+│   └── fmcg_eda.ipynb
+
+├── sql/
+
+│   ├── create_table.sql
+
+│   ├── data_validation.sql
+
+│   ├── business_analysis.sql
+
+│   └── advanced_analysis.sql
+
+├── images/
+
+│   ├── dashboard_overview.png
+
+│   ├── dashboard_category.png
+
+│   └── dashboard_regional.png
+
+└── README.md
+---
+
+## 📈 Workflow
+Raw CSV → Excel (Clean & QA) → SQL Server (Validate & Query)
+→ Python (EDA & Insights) → Power BI (Dashboard)
+
+---
+
+## 💡 SQL Highlights
+- Used **CTEs** for monthly trend aggregation
+- Applied **Window Functions** (LAG, RANK) for MoM comparisons
+- Built **market share analysis** using proportional revenue contribution
+- Created **clean SQL View** for Power BI modeling
+
+---
+
+## 🐍 Python Highlights
+- Full EDA pipeline with Pandas & NumPy
+- Time-series visualization with Matplotlib & Seaborn
+- **Pareto analysis** to identify top revenue-driving SKUs
+- Feature engineering: `profit_margin`, `high_revenue` flag
+- MoM growth rate calculation with `.pct_change()`
+
+---
+
+## ⚡ Power BI Highlights
+- Custom **DAX measures**: Total Sales, MoM Growth %, YTD Sales, AOV
+- **Date table** built with DAX for time intelligence
+- 4 dashboard pages: Overview, Category, Regional, Time Analysis
+- Interactive slicers by Year, Category, Region, Channel
+
+---
+
+*Built by [Ali Khanbeigi](https://www.linkedin.com/in/ali-khanbeigi)*
+
+---
+
+## 📁 Project Structure
