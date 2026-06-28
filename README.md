@@ -37,7 +37,7 @@ product performance, regional trends, and channel profitability.
 ## 📊 Dashboard Preview
 
 <!-- Add your dashboard screenshots here -->
-![Overview Dashboard]((https://github.com/ali-khanbeigi/fmcg-sales-analysis/blob/main/images/FMCG_ANALYSIS-images-0.jpg?raw=true))
+![Overview Dashboard]![Dashboard](https://github.com/ali-khanbeigi/fmcg-sales-analysis/blob/main/images/اسم-فایل.png?raw=true)
 ![Category Analysis](images/dashboard_category.png)
 ![Regional Analysis](images/dashboard_regional.png)
 
