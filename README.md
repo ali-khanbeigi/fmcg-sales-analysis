@@ -108,6 +108,3 @@ Raw CSV → Excel (Clean & QA) → SQL Server (Validate & Query)
 
 *Built by [Ali Khanbeigi](https://www.linkedin.com/in/ali-khanbeigi)*
 
----
-
-## 📁 Project Structure
